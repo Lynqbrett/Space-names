@@ -1,0 +1,20 @@
+# import json
+#
+# daisy = {
+#     "animal": "cat",
+#     "DOB": 2004,
+#     "food": "ice_lolly"
+# }
+# print(json.dumps(daisy, indent= 4))
+#
+# x = daisy["food"]
+# print(x)
+#
+# daisy["animal"] = "capy"
+# print(json.dumps(daisy, indent= 4))
+#
+# daisy["height"] = "small"
+# print(json.dumps(daisy, indent= 4))
+#
+# daisy.pop("DOB")
+# print(json.dumps(daisy, indent= 4))
